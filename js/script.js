@@ -402,28 +402,13 @@ $(() => {
     }
 
     initMap() {
+      this.state.mapHeight = 479.977;
       if (this.state.mapHeight > 0) {
         this.ui.mapLW.width(this.state.mapHeight);
         this.ui.mapLW.height(this.state.mapHeight);
         this.ui.mapDW.width(this.state.mapHeight);
         this.ui.mapDW.height(this.state.mapHeight);
       }
-      this.ui.mapLW.resizable({
-        aspectRatio: 1,
-        minWidth: 100,
-        alsoResize: '.resizable',
-        stop: function resizeEvent(event, ui) {
-          this.state.mapHeight = ui.size.height;
-        }.bind(this),
-      });
-      this.ui.mapDW.resizable({
-        aspectRatio: 1,
-        minWidth: 100,
-        alsoResize: '.resizable',
-        stop: function resizeEvent(event, ui) {
-          this.state.mapHeight = ui.size.height;
-        }.bind(this),
-      });
 
       this.state.addOnItemChanged(() => {
         for (const location of this.ui.mapLW.find('.location')) {
@@ -788,6 +773,7 @@ $(() => {
         tracker: $('#item_tracker'),
         items: {},
       };
+	  this.ui.tracker.addClass('hidden');
 
       this.items = {
         bow: {
@@ -942,14 +928,6 @@ $(() => {
         this.ui.tracker.width(this.state.mapHeight);
         this.ui.tracker.height(this.state.mapHeight);
       }
-      this.ui.tracker.resizable({
-        aspectRatio: 1,
-        minWidth: 100,
-        alsoResize: '.resizable',
-        stop: function resizeEvent(event, ui) {
-          this.state.mapHeight = ui.size.height;
-        }.bind(this),
-      });
 
       for (const itemName of Object.keys(this.items)) {
         const div = $(document.createElement('div'));
