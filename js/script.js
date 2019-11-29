@@ -52,12 +52,6 @@ $(() => {
     }
 
     reset() {
-      const oldItems = this.state.items;
-      this.state.items = {};
-      for (const item of Object.keys(oldItems)) {
-        this.triggerItemChanged(item);
-      }
-
       const oldLocations = this.state.locations;
       this.state.locations = [];
       for (const location of oldLocations) {
