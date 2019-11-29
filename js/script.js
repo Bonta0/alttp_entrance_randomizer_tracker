@@ -387,6 +387,7 @@ $(() => {
     }
 
     annotateLocation(locationName) {
+      this.ui.mapFooter.css('background-color', 'black');
       if (!this.doorLocations[locationName].cave === 'Useless') {
         this.annotateLocationName = null;
         return;
@@ -501,6 +502,7 @@ $(() => {
               this.state.addLocation(locationName, locationName, locationName, false);
               this.state.annotateLocation(locationName, 'Marked');
             } else {
+              this.ui.mapFooter.css('background-color', 'darkred');
               this.annotateLocationName = locationName;
             }
             return;
