@@ -4,6 +4,7 @@ window.caves = {
     entrance: {
       // Light World
       'Forest Chest Game': {
+        shortname: '',
         region: 'Lost Woods',
         tag: 'lw',
         x: '19.18%',
@@ -13,6 +14,7 @@ window.caves = {
         },
       },
       'Lumberjack House': {
+        shortname: '',
         region: 'Light World North',
         tag: 'lw',
         x: '34.25%',
@@ -22,6 +24,7 @@ window.caves = {
         },
       },
       'Twin Cave Left': {
+        shortname: '',
         region: 'Death Mountain',
         tag: 'lw',
         x: '85.00%',
@@ -31,6 +34,7 @@ window.caves = {
         },
       },
       'Tree Cave by Eastern Palace': {
+        shortname: '',
         // definitely
         region: 'Light World East',
         tag: 'lw',
@@ -41,6 +45,7 @@ window.caves = {
         },
       },
       'Cave by Eastern Palace Portal': {
+        shortname: '',
         region: 'Light World East',
         tag: 'lw',
         x: '98.40%',
@@ -50,6 +55,7 @@ window.caves = {
         },
       },
       'Kakariko Fortune Teller North': {
+        shortname: '',
         region: 'Kakariko',
         tag: 'lw',
         x: '18.72%',
@@ -59,6 +65,7 @@ window.caves = {
         },
       },
       'House West of Bottle Vendor': {
+        shortname: '',
         // definitely
         region: 'Kakariko',
         tag: 'lw',
@@ -69,6 +76,7 @@ window.caves = {
         },
       },
       'House East of Bottle Vendor': {
+        shortname: '',
         // definitely
         region: 'Kakariko',
         tag: 'lw',
@@ -79,6 +87,7 @@ window.caves = {
         },
       },
       'House right of sick Kid': {
+        shortname: '',
         region: 'Kakariko',
         tag: 'lw',
         x: '20.32%',
@@ -88,6 +97,7 @@ window.caves = {
         },
       },
       'Tavern Front Entrance': {
+        shortname: '',
         region: 'Kakariko',
         tag: 'lw',
         x: '15.75%',
@@ -97,6 +107,7 @@ window.caves = {
         },
       },
       'Shop beside Tavern': {
+        shortname: '',
         // definitely
         region: 'Kakariko',
         tag: 'lw',
@@ -107,6 +118,7 @@ window.caves = {
         },
       },
       'Doorless Shed': {
+        shortname: '',
         region: 'Kakariko',
         tag: 'lw',
         x: '2.28%',
@@ -116,6 +128,7 @@ window.caves = {
         },
       },
       'Kakariko Fortune Teller South': {
+        shortname: '',
         region: 'Kakariko',
         tag: 'lw',
         x: '21.92%',
@@ -125,6 +138,7 @@ window.caves = {
         },
       },
       'Lake Hylia Fortune Teller': {
+        shortname: '',
         region: 'Lake Hylia',
         tag: 'lw',
         x: '65.53%',
@@ -134,6 +148,7 @@ window.caves = {
         },
       },
       'Cave North of Lake Hylia': {
+        shortname: '',
         region: 'Lake Hylia',
         tag: 'lw',
         x: '73.52%',
@@ -143,6 +158,7 @@ window.caves = {
         },
       },
       'Lake Hylia Fairy Cave': {
+        shortname: '',
         region: 'Lake Hylia',
         tag: 'lw',
         x: '80.37%',
@@ -152,6 +168,7 @@ window.caves = {
         },
       },
       'Ice Fairy Cave': {
+        shortname: '',
         region: 'Lake Hylia',
         tag: 'lw',
         x: '92.95%',
@@ -161,6 +178,7 @@ window.caves = {
         },
       },
       "Link's House Bonk Rocks": {
+        shortname: '',
         region: 'Light World South',
         tag: 'lw',
         x: '47.72%',
@@ -170,6 +188,7 @@ window.caves = {
         },
       },
       'Light World Hype Cave Spot': {
+        shortname: '',
         // maybe
         region: 'Light World South',
         tag: 'lw',
@@ -180,6 +199,7 @@ window.caves = {
         },
       },
       'Regular Cave by Desert': {
+        shortname: '',
         // maybe
         region: 'Desert Area',
         tag: 'lw',
@@ -192,6 +212,7 @@ window.caves = {
 
       // Dark World
       'DW Lumberjack House': {
+        shortname: '',
         region: 'Dark World North',
         tag: 'dw',
         x: '34.25%',
@@ -201,6 +222,7 @@ window.caves = {
         },
       },
       'DW Sanctuary Spot': {
+        shortname: '',
         region: 'Dark World North',
         tag: 'dw',
         x: '46.35%',
@@ -210,6 +232,7 @@ window.caves = {
         },
       },
       'Fire Shield Shop': {
+        shortname: '',
         region: 'Dark World North',
         tag: 'dw',
         x: '33.11%',
@@ -219,6 +242,7 @@ window.caves = {
         },
       },
       "DW Witch's Hut": {
+        shortname: '',
         region: 'Dark World East',
         tag: 'dw',
         x: '80.37%',
@@ -228,6 +252,7 @@ window.caves = {
         },
       },
       'Tree Cave by Palace of Darkness': {
+        shortname: '',
         // maybe
         region: 'Dark World East',
         tag: 'dw',
@@ -238,6 +263,7 @@ window.caves = {
         },
       },
       'DW Cave by Eastern Palace Portal': {
+        shortname: '',
         // maybe
         region: 'Dark World East',
         tag: 'dw',
@@ -248,6 +274,7 @@ window.caves = {
         },
       },
       'Monkey Hut': {
+        shortname: '',
         region: 'Dark World East',
         tag: 'dw',
         x: '84.70%',
@@ -257,6 +284,7 @@ window.caves = {
         },
       },
       'Village of Outcasts Fortune Teller': {
+        shortname: '',
         region: 'Village of Outcasts',
         tag: 'dw',
         x: '18.72%',
@@ -266,6 +294,7 @@ window.caves = {
         },
       },
       'Peg House': {
+        shortname: '',
         region: 'Village of Outcasts',
         tag: 'dw',
         x: '20.32%',
@@ -275,6 +304,7 @@ window.caves = {
         },
       },
       'Bow Game House': {
+        shortname: '',
         region: 'Dark World South',
         tag: 'dw',
         x: '21.92%',
@@ -284,6 +314,7 @@ window.caves = {
         },
       },
       'Bonk Rocks by Bomb Shop': {
+        shortname: '',
         region: 'Dark World South',
         tag: 'dw',
         x: '47.72%',
@@ -293,6 +324,7 @@ window.caves = {
         },
       },
       'DW Lake Hylia House': {
+        shortname: '',
         region: 'Dark World Lake Hylia',
         tag: 'dw',
         x: '65.53%',
@@ -302,6 +334,7 @@ window.caves = {
         },
       },
       'DW Ice Bomb Cave': {
+        shortname: '',
         region: 'Dark World Lake Hylia',
         tag: 'dw',
         x: '89.95%',
@@ -316,6 +349,7 @@ window.caves = {
         },
       },
       'DW Ice Fairy Cave': {
+        shortname: '',
         region: 'Dark World Lake Hylia',
         tag: 'dw',
         x: '92.95%',
@@ -327,6 +361,7 @@ window.caves = {
         },
       },
       'DW Ice Rock Cave': {
+        shortname: '',
         region: 'Dark World Lake Hylia',
         tag: 'dw',
         x: '91.45%',
@@ -341,6 +376,7 @@ window.caves = {
         },
       },
       'Right Mire Head': {
+        shortname: '',
         region: 'Misery Mire Area',
         tag: 'dw',
         x: '10.47%',
@@ -350,6 +386,7 @@ window.caves = {
         },
       },
       'Mire Cave': {
+        shortname: '',
         region: 'Misery Mire Area',
         tag: 'dw',
         x: '19.86%',
@@ -359,6 +396,7 @@ window.caves = {
         },
       },
       'West DM Fairy Cave': {
+        shortname: '',
         // maybe
         region: 'Dark World Death Mountain',
         tag: 'dw',
@@ -369,6 +407,7 @@ window.caves = {
         },
       },
       'DW Twin Cave Right': {
+        shortname: '',
         region: 'Dark World Death Mountain',
         tag: 'dw',
         x: '87.02%',
@@ -385,6 +424,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Paradox Cave Top': {
+        shortname: 'pdx:t',
         x: '86.53%',
         y: '6.11%',
         state(items) {
@@ -392,6 +432,7 @@ window.caves = {
         },
       },
       'Paradox Cave Bottom': {
+        shortname: 'pdx:b',
         x: '86.99%',
         y: '21.49%',
         state(items) {
@@ -399,6 +440,7 @@ window.caves = {
         },
       },
       'Twin Cave Right': {
+        shortname: 'pdx:r',
         x: '88.00%',
         y: '14.71%',
         state(items) {
@@ -413,6 +455,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Blind's Hut": {
+        shortname: 'blind',
         x: '13.00%',
         y: '41.63%',
         state() {
@@ -427,6 +470,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Mini Moldorm Cave': {
+        shortname: 'mmc',
         x: '65.30%',
         y: '93.67%',
         state(items) {
@@ -441,6 +485,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Hype Cave': {
+        shortname: 'hype',
         x: '60.27%',
         y: '77.60%',
         state(items) {
@@ -455,6 +500,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Kakariko Well Drop': {
+        shortname: 'well',
         drop: true,
         x: '2.50%',
         y: '42.53%',
@@ -463,6 +509,7 @@ window.caves = {
         },
       },
       'Kakariko Well Door': {
+        shortname: 'well',
         x: '5.50%',
         y: '42.53%',
         state() {
@@ -477,6 +524,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Hookshot Cave Front': {
+        shortname: 'hs:f',
         x: '82.88%',
         y: '6.33%',
         state(items) {
@@ -484,6 +532,7 @@ window.caves = {
         },
       },
       'Hookshot Cave Back': {
+        shortname: 'hs:b',
         x: '80.14%',
         y: '2.04%',
         state(items) {
@@ -498,6 +547,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Sahasrahla's Hut": {
+        shortname: 'saha',
         x: '81.96%',
         y: '43.30%',
         state() {
@@ -512,6 +562,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Sewer Grave Drop': {
+        shortname: 'sewer',
         drop: true,
         x: '52.74%',
         y: '28.96%',
@@ -527,6 +578,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Pyramid Fairy': {
+        shortname: 'pyrf',
         x: '46.80%',
         y: '48.87%',
         state(items) {
@@ -541,6 +593,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Waterfall Fairy': {
+        shortname: 'watf',
         x: '90.64%',
         y: '14.25%',
         state(items) {
@@ -555,6 +608,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Left Mire Head': {
+        shortname: 'mshed',
         x: '3.67%',
         y: '80.32%',
         state(items) {
@@ -569,6 +623,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'DW Twin Cave Left': {
+        shortname: 'sbc:f',
         x: '84.02%',
         y: '14.93%',
         state(items) {
@@ -576,6 +631,7 @@ window.caves = {
         },
       },
       'DW East DM Upper Exit': {
+        shortname: 'sbc:b',
         x: '86.53%',
         y: '6.56%',
         state(items) {
@@ -590,6 +646,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Uncle Drop': {
+        shortname: 'uncle',
         drop: true,
         x: '60.27%',
         y: '41.18%',
@@ -598,6 +655,7 @@ window.caves = {
         },
       },
       'Uncle Door': {
+        shortname: 'uncle',
         x: '55.48%',
         y: '42.76%',
         state() {
@@ -612,6 +670,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       Sanctuary: {
+        shortname: 'sanc',
         x: '46.35%',
         y: '26.70%',
         state() {
@@ -626,6 +685,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Link's House": {
+        shortname: 'link',
         x: '55.25%',
         y: '68.78%',
         state() {
@@ -640,6 +700,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Thief's Hideout Drop": {
+        shortname: 'thief',
         drop: true,
         x: '19.41%',
         y: '13.12%',
@@ -648,6 +709,7 @@ window.caves = {
         },
       },
       "Thief's Hideout Door": {
+        shortname: 'thief',
         x: '17.12%',
         y: '16.74%',
         state() {
@@ -662,6 +724,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Lumberjack Cave Drop': {
+        shortname: 'ljc',
         drop: true,
         x: '30.37%',
         y: '7.92%',
@@ -670,6 +733,7 @@ window.caves = {
         },
       },
       'Lumberjack Cave Door': {
+        shortname: 'ljc',
         x: '34.25%',
         y: '3.62%',
         state() {
@@ -684,6 +748,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Ice Bomb Cave': {
+        shortname: 'irc',
         x: '89.95%',
         y: '76.47%',
         state(items) {
@@ -698,6 +763,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Checkerboard Cave': {
+        shortname: 'chc',
         x: '17.58%',
         y: '78.05%',
         state(items) {
@@ -714,6 +780,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Aginah's Cave": {
+        shortname: 'agi',
         x: '19.86%',
         y: '82.58%',
         state() {
@@ -728,6 +795,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'South of Grove': {
+        shortname: 'c45',
         x: '26.48%',
         y: '82.58%',
         state(items) {
@@ -742,6 +810,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Chicken House': {
+        shortname: 'chic',
         x: '9.82%',
         y: '52.94%',
         state() {
@@ -756,6 +825,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Tavern Back Entrance': {
+        shortname: 'tav:b',
         x: '15.75%',
         y: '57.00%',
         state() {
@@ -770,6 +840,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       Dam: {
+        shortname: 'dam',
         x: '47.26%',
         y: '93.67%',
         state() {
@@ -784,6 +855,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Peg Cave': {
+        shortname: 'peg',
         x: '31.05%',
         y: '60.63%',
         state(items) {
@@ -800,6 +872,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Sanctuary Bonk Rocks': {
+        shortname: 'bonk',
         x: '38.36%',
         y: '29.19%',
         state(items) {
@@ -814,6 +887,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "King's Tomb": {
+        shortname: 'kt',
         x: '60.27%',
         y: '28.96%',
         state(items) {
@@ -831,6 +905,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Spectacle Rock Item Peak': {
+        shortname: 'src:t',
         x: '48.63%',
         y: '10.41%',
         state(items) {
@@ -838,6 +913,7 @@ window.caves = {
         },
       },
       'Spectacle Rock Item Get': {
+        shortname: 'src:e',
         x: '45.89%',
         y: '14.25%',
         state(items) {
@@ -845,6 +921,7 @@ window.caves = {
         },
       },
       'Spectacle Rock Exit': {
+        shortname: 'src:b',
         x: '48.63%',
         y: '14.71%',
         state(items) {
@@ -859,6 +936,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'C House': {
+        shortname: 'c',
         x: '21.23%',
         y: '47.96%',
         state(items) {
@@ -873,6 +951,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Doorless Hut': {
+        shortname: 'hut',
         x: '11.42%',
         y: '57.24%',
         state(items) {
@@ -887,6 +966,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Chest Game': {
+        shortname: 'game',
         x: '5.25%',
         y: '46.61%',
         state(items) {
@@ -901,6 +981,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Spike Cave': {
+        shortname: 'spik',
         x: '57.31%',
         y: '14.93%',
         state(items) {
@@ -915,6 +996,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Spiral Cave Top': {
+        shortname: 'spi:t',
         x: '79.00%',
         y: '9.28%',
         state(items) {
@@ -922,6 +1004,7 @@ window.caves = {
         },
       },
       'Spiral Cave Bottom': {
+        shortname: 'spi:b',
         x: '79.00%',
         y: '13.35%',
         state(items) {
@@ -936,6 +1019,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Mimic Cave': {
+        shortname: 'mim',
         x: '84.93%',
         y: '9.28%',
         state(items) {
@@ -950,6 +1034,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Graveyard Cliff': {
+        shortname: 'gyl',
         x: '57.53%',
         y: '27.38%',
         state(items) {
@@ -964,6 +1049,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       Library: {
+        shortname: 'lib',
         x: '15.75%',
         y: '65.38%',
         state() {
@@ -978,6 +1064,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Blacksmiths's House": {
+        shortname: 'bs',
         x: '30.37%',
         y: '52.94%',
         state() {
@@ -992,6 +1079,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Bat Cave Drop': {
+        shortname: 'bat',
         drop: true,
         x: '34.05%',
         y: '55.88%',
@@ -1003,6 +1091,7 @@ window.caves = {
         },
       },
       'Bat Cave Door': {
+        shortname: 'bat',
         x: '31.05%',
         y: '55.88%',
         state() {
@@ -1017,6 +1106,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Sick Kid's House": {
+        shortname: 'kid',
         x: '15.98%',
         y: '52.94%',
         state() {
@@ -1030,6 +1120,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Death Mountain Entrance Front': {
+        shortname: 'dm:f',
         region: 'Light World North',
         x: '35.16%',
         y: '19.23%',
@@ -1038,6 +1129,7 @@ window.caves = {
         },
       },
       'Death Mountain Entrance Back': {
+        shortname: 'dm:b',
         region: 'Death Mountain',
         x: '40.64%',
         y: '19.23%',
@@ -1053,6 +1145,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Witch's Hut": {
+        shortname: 'pot',
         x: '82.65%',
         y: '31.90%',
         state() {
@@ -1067,6 +1160,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Bomb Shop': {
+        shortname: 'bomb',
         x: '55.25%',
         y: '68.78%',
         state(items) {
@@ -1081,6 +1175,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Ice Rock Cave': {
+        shortname: 'rup',
         x: '91.45%',
         y: '79.47%',
         state(items) {
@@ -1095,6 +1190,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Rock Rupee Cave by Desert': {
+        shortname: 'rup',
         x: '31.05%',
         y: '95.70%',
         state(items) {
@@ -1110,6 +1206,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Death Mountain Exit Back': {
+        shortname: 'dmd:b',
         region: 'Light World North',
         x: '35.16%',
         y: '15.38%',
@@ -1120,6 +1217,7 @@ window.caves = {
         },
       },
       'Death Mountain Exit Front': {
+        shortname: 'dmd:f',
         region: 'Death Mountain',
         x: '39.50%',
         y: '14.03%',
@@ -1135,6 +1233,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Old Woman's House Left": {
+        shortname: 'old:l',
         x: '16.00%',
         y: '41.63%',
         state() {
@@ -1142,6 +1241,7 @@ window.caves = {
         },
       },
       "Old Woman's House Right": {
+        shortname: 'old:r',
         x: '19.00%',
         y: '41.63%',
         state() {
@@ -1156,6 +1256,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Race Game Right': {
+        shortname: 'bro:r',
         x: '14.16%',
         y: '71.27%',
         state() {
@@ -1163,6 +1264,7 @@ window.caves = {
         },
       },
       'Race Game Left': {
+        shortname: 'bro:l',
         x: '10.50%',
         y: '71.27%',
         state(items) {
@@ -1177,6 +1279,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'East of Graveyard Drop': {
+        shortname: 'shit',
         drop: true,
         x: '64.61%',
         y: '30.54%',
@@ -1185,6 +1288,7 @@ window.caves = {
         },
       },
       'East of Graveyard Door': {
+        shortname: 'shit',
         x: '67.61%',
         y: '27.54%',
         state() {
@@ -1199,6 +1303,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Bumper Cave Bottom': {
+        shortname: 'bmp:b',
         x: '35.16%',
         y: '19.23%',
         state(items) {
@@ -1206,6 +1311,7 @@ window.caves = {
         },
       },
       'Bumper Cave Top': {
+        shortname: 'bmp:t',
         x: '35.16%',
         y: '15.38%',
         state() {
@@ -1220,6 +1326,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       "Old Man's Cave Front": {
+        shortname: 'old:f',
         x: '45.43%',
         y: '22.62%',
         state(items) {
@@ -1227,6 +1334,7 @@ window.caves = {
         },
       },
       "Old Man's Cave Back": {
+        shortname: 'old:b',
         x: '53.65%',
         y: '15.84%',
         state(items) {
@@ -1241,6 +1349,7 @@ window.caves = {
     tag: 'lw',
     entrance: {
       'Light World Bitch Door Front': {
+        shortname: 'trc:b',
         x: '82%',
         y: '14.71%',
         state(items) {
@@ -1248,6 +1357,7 @@ window.caves = {
         },
       },
       'Light World Bitch Door Exit': {
+        shortname: 'trc:t',
         x: '82%',
         y: '11.31%',
         state(items) {
@@ -1265,6 +1375,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Hyrule Castle Main Entrance': {
+        shortname: 'cas:m',
         x: '50.46%',
         y: '44.12%',
         state() {
@@ -1272,6 +1383,7 @@ window.caves = {
         },
       },
       'Hyrule Castle Left': {
+        shortname: 'cas:l',
         x: '45.53%',
         y: '38.46%',
         state(items) {
@@ -1279,6 +1391,7 @@ window.caves = {
         },
       },
       'Hyrule Castle Right': {
+        shortname: 'cas:r',
         x: '55.48%',
         y: '38.46%',
         state(items) {
@@ -1294,6 +1407,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Hyrule Castle Agahnim': {
+        shortname: 'aga',
         x: '50.46%',
         y: '40.05%',
         state(items) {
@@ -1311,6 +1425,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Eastern Palace': {
+        shortname: 'eas',
         x: '96.58%',
         y: '38.69%',
         state() {
@@ -1326,6 +1441,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Desert Palace Main Entrance': {
+        shortname: 'dp:m',
         x: '7.31%',
         y: '81.22%',
         state(items) {
@@ -1335,6 +1451,7 @@ window.caves = {
         },
       },
       'Desert Palace West': {
+        shortname: 'dp:l',
         x: '3.20%',
         y: '79.19%',
         state(items) {
@@ -1342,6 +1459,7 @@ window.caves = {
         },
       },
       'Desert Palace East': {
+        shortname: 'dp:r',
         x: '11.42%',
         y: '79.19%',
         state() {
@@ -1357,6 +1475,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Desert Palace Back': {
+        shortname: 'dp:b',
         x: '7.31%',
         y: '76.47%',
         state(items) {
@@ -1372,6 +1491,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Tower of Hera': {
+        shortname: 'hera',
         x: '56.62%',
         y: '3.85%',
         state(items) {
@@ -1389,6 +1509,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Palace of Darkness': {
+        shortname: 'pod',
         x: '96.58%',
         y: '38.69%',
         state(items) {
@@ -1404,6 +1525,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Swamp Palace': {
+        shortname: 'swp',
         x: '47.26%',
         y: '93.67%',
         state(items) {
@@ -1419,6 +1541,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Skull Woods Drop Left': {
+        shortname: 'sw',
         drop: true,
         x: '14.87%',
         y: '17.42%',
@@ -1427,6 +1550,7 @@ window.caves = {
         },
       },
       'Skull Woods Drop Right': {
+        shortname: 'sw',
         drop: true,
         x: '19.21%',
         y: '17.19%',
@@ -1435,6 +1559,7 @@ window.caves = {
         },
       },
       'Skull Woods Drop Big Chest': {
+        shortname: 'sw',
         drop: true,
         x: '19.41%',
         y: '13.12%',
@@ -1443,6 +1568,7 @@ window.caves = {
         },
       },
       'Skull Woods Front Entrance': {
+        shortname: 'sw',
         x: '17.12%',
         y: '15.00%',
         state(items) {
@@ -1458,6 +1584,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Skull Woods Drop Back': {
+        shortname: 'sw',
         drop: true,
         x: '10.99%',
         y: '8.82%',
@@ -1466,6 +1593,7 @@ window.caves = {
         },
       },
       'Skull Woods Second Entrance': {
+        shortname: 'sw',
         x: '13.73%',
         y: '13.80%',
         state(items) {
@@ -1473,6 +1601,7 @@ window.caves = {
         },
       },
       'Skull Woods Exit to Back': {
+        shortname: 'sw',
         x: '5.05%',
         y: '12.22%',
         state(items) {
@@ -1488,6 +1617,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Skull Woods Big Skull': {
+        shortname: 'sw',
         x: '3.00%',
         y: '4.52%',
         state(items) {
@@ -1503,6 +1633,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       "Thieve's Town": {
+        shortname: 'tt',
         x: '11.90%',
         y: '47.74%',
         state(items) {
@@ -1518,6 +1649,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Ice Palace': {
+        shortname: 'ice',
         x: '80.37%',
         y: '85.07%',
         state(items) {
@@ -1533,6 +1665,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Misery Mire': {
+        shortname: 'mm',
         x: '6.97%',
         y: '81.22%',
         state(items) {
@@ -1555,6 +1688,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       'Turtle Rock Main Entrance': {
+        shortname: 'tr:f',
         x: '93.86%',
         y: '7.47%',
         state(items) {
@@ -1573,6 +1707,7 @@ window.caves = {
         },
       },
       'Turtle Rock Laser Wall': {
+        shortname: 'tr:l',
         x: '79.00%',
         y: '9.68%',
         state(items) {
@@ -1580,6 +1715,7 @@ window.caves = {
         },
       },
       'Turtle Rock Big Chest': {
+        shortname: 'tr:r',
         x: '84.93%',
         y: '9.68%',
         state(items) {
@@ -1587,6 +1723,7 @@ window.caves = {
         },
       },
       'Turtle Rock Boss Entrance': {
+        shortname: 'tr:b',
         x: '82.00%',
         y: '11.61%',
         state() {
@@ -1602,6 +1739,7 @@ window.caves = {
     dungeon: true,
     entrance: {
       "Ganon's Tower": {
+        shortname: 'gt',
         x: '56.62%',
         y: '3.85%',
         state(items) {
@@ -1616,6 +1754,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Ganon Drop': {
+        shortname: 'g',
         drop: true,
         x: '49.32%',
         y: '41.40%',
@@ -1631,6 +1770,7 @@ window.caves = {
     tag: 'dw',
     entrance: {
       'Ganon Door': {
+        shortname: 'g',
         x: '43.80%',
         y: '48.87%',
         state() {

@@ -439,6 +439,8 @@ $(() => {
       this.ui.mapLW.find('.location').remove();
       this.ui.mapDW.find('.location').remove();
 
+      let txtboxes = [];
+	  
       for (const [name, door] of Object.entries(this.doorLocations)) {
         if (!door.x || !door.y) {
           console.log(`Location "${name}" is missing coordinates`);
@@ -554,6 +556,18 @@ $(() => {
           }
         });
 
+        let textDiv;
+        textDiv = $(document.createElement('text'));
+        textDiv.addClass('location');
+        textDiv.addClass(rectSize);
+        textDiv.css('left', door.x);
+        textDiv.css('top', door.y);
+        textDiv.css('pointer-events', 'none');
+        textDiv.css('color', 'white');
+        textDiv.css('font-weight', 'bold');
+        textDiv.css('font-variant', 'small-caps');
+        locationDiv.data('txtbox', textDiv[0]);
+
         this.refreshLocation(locationDiv);
 
         this.state.addOnLocationChanged(
@@ -568,7 +582,10 @@ $(() => {
 
         door.rect = locationDiv;
         mapDiv.append(locationDiv);
+        txtboxes.push([mapDiv, textDiv]);
       }
+
+      txtboxes.forEach(txtpair => txtpair[0].append(txtpair[1]));
 
       this.state.addOnLocationChanged(() => {
         this.state.save();
@@ -611,6 +628,7 @@ $(() => {
     refreshLocation(locationDiv) {
       const locationName = locationDiv.data('location');
       const location = this.state.findLocation(locationName);
+      const txtbox = locationDiv.data('txtbox');
 
       if (this.doorLocations[locationName].state) {
         const state = this.doorLocations[locationName].state(this.itemTracker);
@@ -624,15 +642,23 @@ $(() => {
       }
 
       if (!location) {
+        txtbox.textContent = '';
         locationDiv.removeClass('marked');
         locationDiv.removeClass('done');
         return;
       }
 
-      if (location.annotation) locationDiv.addClass('marked');
-      else locationDiv.removeClass('marked');
-      if (location.isDone) locationDiv.addClass('done');
-      else locationDiv.removeClass('done');
+      if (location.annotation) {
+        txtbox.textContent = this.doorLocations[location.exit].shortname;
+        locationDiv.addClass('marked');
+      } else {
+        txtbox.textContent = '';
+        locationDiv.removeClass('marked');
+      }
+      if (location.isDone) {
+        txtbox.textContent = '';
+        locationDiv.addClass('done');
+      } else locationDiv.removeClass('done');
     }
 
     refreshList() {
